@@ -1,0 +1,61 @@
+@import '../../theme/mixins.scss';
+@import '../../theme/variables.scss';
+
+.landing_wrapper{
+  @include section(80vh, 85vw, 3em);
+  @include flex(flex, row, center, space-between);
+  margin-top: 10vh;
+}
+
+.img{
+  border: 0px solid rgba(177, 140, 223, 0.235);
+  border-radius: 10px;
+  height: 57%;  
+  position: absolute;
+  right: 0;
+  bottom: 15%;
+}
+
+.title{
+  color: $landing-text-color;
+  font-size: 40px;
+}
+
+.para{
+  color: $landing-secondary-text-color;
+  margin-top: 1em;
+  font-size: larger;  
+}
+
+.btn{
+  @include button(6vh, 10vw, #4a9f9c, white, 0px solid white, 12px, 2em);
+  font-weight: 550;
+  font-size: large;
+  transition: 0.5;
+  cursor: pointer;
+  &:hover{
+    background-color: rgb(235, 235, 235);
+  } 
+  
+  
+}
+
+@media screen and (max-width: 786px) {
+  
+.landing_wrapper{
+  @include section(80vh, 85vw, 3em);
+  @include flex(flex, column, center, space-between);
+  margin-top: 10vh;
+}
+
+
+.img{
+  height: 27%;
+  margin-right: 2%;  
+}
+
+.btn{
+  @include button(6vh, 50vw, #4a9f9c, white, 0px solid white, 12px, 2em);
+}
+
+}

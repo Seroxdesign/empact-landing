@@ -1,0 +1,29 @@
+@import '../../../theme/mixins.scss';
+@import '../../../theme/variables.scss';
+
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  @include section(7vh, 100vw, 1em);
+  @include flex(flex, row, center, space-between);
+}
+
+.link_list{
+  list-style: none;
+  @include flex(flex, row, center, space-between)
+}
+
+.link_list_item{
+  font-weight: 600;
+  margin-right: 1em;
+}
+
+.link_nav{
+  color: white;
+  text-decoration: none;
+}
+
+.title{
+  color: white;
+}

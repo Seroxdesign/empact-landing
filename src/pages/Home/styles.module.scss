@@ -1,0 +1,7 @@
+@import '../../theme/mixins.scss';
+@import '../../theme/variables.scss';
+
+.page_wrapper{
+  @include section(100vh, 100vw, 0em, $light-bg, $section1-bg-gradient);
+  @include flex(flex, column, center, space-between);
+}

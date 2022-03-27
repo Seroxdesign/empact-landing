@@ -1,0 +1,27 @@
+// Light Theme Colors
+
+$light-bg: #FAFAFA;
+$light-secondary-bg: #ECECEC;
+$light-highlight-color: #9537B7;
+$light-btn-bg: #10BB34;
+
+
+// Dark Theme Colors
+
+$dark-bg: #0D1117;
+$dark-secondary-bg: #161B22;
+$dark-highlight-color: #9537B7;
+$dark-btn-bg: #3D8AFD;
+
+
+// Landing Theme
+
+$section1-bg-gradient: linear-gradient(45deg, #4a9f9c, #3fc6bf);
+$landing-btn-bg: white;
+$landing-text-color: white;
+$landing-secondary-text-color: rgba(255, 255, 255, 0.6);
+
+// Default Values for Mixins
+
+$empty-bg-gradient: linear-gradient(#35aba500, rgba(90, 222, 218, 0));
+$empty-bg:#fafafa00;

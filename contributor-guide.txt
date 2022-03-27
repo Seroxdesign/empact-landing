@@ -1,0 +1,14 @@
+Our stack: 
+
+-React JS for UI components
+-Sass for styles
+-React Router Dom for Routing
+
+To edit styles open ./src/theme 
+
+Within that folder you'll find:
+
+ * A mixin file which provides the template for style-mixins that should be used in all ./styles.module.scss files
+ * A variables file with the colors, sizes etc..
+
+
