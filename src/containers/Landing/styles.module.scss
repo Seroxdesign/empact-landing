@@ -2,9 +2,19 @@
 @import '../../theme/variables.scss';
 
 .landing_wrapper{
-  @include section(80vh, 85vw, 3em);
+  @include section(100vh, 85vw, 3em);
   @include flex(flex, row, center, space-between);
-  margin-top: 10vh;
+}
+
+.landing_background{
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('https://assets.website-files.com/61c068a59012f41188beeafb/61c32f42d6ad0f3b29d34cd2_team-bg.png');
+  background-size: cover;
 }
 
 .img{
@@ -27,6 +37,10 @@
   font-size: larger;  
 }
 
+.sub_title{
+  color: $landing-sub-title-color;
+}
+
 .btn{
   @include button(6vh, 10vw, #4a9f9c, white, 0px solid white, 12px, 2em);
   font-weight: 550;
@@ -36,22 +50,24 @@
   &:hover{
     background-color: rgb(235, 235, 235);
   } 
-  
-  
+  position: absolute;
+  z-index: 10;
 }
 
 @media screen and (max-width: 786px) {
   
 .landing_wrapper{
-  @include section(80vh, 85vw, 3em);
+  @include section(100vh, 85vw, 3em);
   @include flex(flex, column, center, space-between);
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 
 
 .img{
-  height: 27%;
-  margin-right: 2%;  
+  height: 22%;
+  margin-right: 2%; 
+  position: absolute;
+  bottom: 0;
 }
 
 .btn{

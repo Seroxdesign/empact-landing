@@ -21,9 +21,9 @@ export default function Navbar() {
         </li>
 
         <li className={styles.link_list_item}>
-          <NavLink to={"/About"} className={styles.link_nav}>
+          <a href={"https://forms.gle/v8Z4bVbSuweDRDcLA"} target={"_blank"} className={styles.link_nav}>
             Contact
-          </NavLink>
+          </a>
         </li>
       </ul>
     </nav>

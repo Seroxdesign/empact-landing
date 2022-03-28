@@ -1,0 +1,61 @@
+@import '../../../theme/mixins.scss';
+@import '../../../theme/variables.scss';
+
+
+.card{
+  @include section(100%, 100%, 2em);
+  background-color: $section2-card;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.365);
+  height: 90%;
+  border-radius: 12px;
+}
+
+.title{
+  color: $landing-text-color;
+  font-size: xx-large;
+}
+
+.para{
+  color: $landing-secondary-text-color;
+  margin-top: 1em;
+  font-size: medium;  
+}
+
+.sub_title{
+  color: $landing-sub-title-color;
+}
+
+.img{
+  filter: brightness(0) invert(1);
+  height: 12vh; 
+}
+
+.btn{
+  margin-top: 1em;
+  height: 5vh;
+  width: 12vw;
+  border-radius: 12px;
+  font-weight: 600;
+  color: $section2-card;
+}
+
+.top{
+  height: 50%;
+}
+
+.bottom{
+  height: 50%;
+  @include flex(flex, column, center, center)
+}
+
+@media screen and (max-width: 786px) {
+  
+.btn{
+  margin-top: 1em;
+  height: 7vh;
+  width: 50vw;
+  border-radius: 12px;
+  font-weight: 600;
+  color: $section2-card;
+}
+}

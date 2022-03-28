@@ -2,6 +2,9 @@
 @import '../../theme/variables.scss';
 
 .page_wrapper{
-  @include section(100vh, 100vw, 0em, $light-bg, $section1-bg-gradient);
+  @include section(100%, 100vw, 0em, $light-bg, $section1-bg-gradient);
   @include flex(flex, column, center, space-between);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  z-index: 2;
 }

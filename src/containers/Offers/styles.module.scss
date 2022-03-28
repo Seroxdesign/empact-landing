@@ -1,0 +1,59 @@
+@import '../../theme/mixins.scss';
+@import '../../theme/variables.scss';
+
+
+.offers{
+  @include section(100vh, 100vw, 0em, $light-bg, $section2-bg-gradient);
+  @include flex(flex, column, center, space-between);
+}
+
+.bg_img{
+  position: absolute;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('https://assets.website-files.com/61c068a59012f41188beeafb/61c430837f4aa9021005d5f5_achievements.svg');
+}
+
+.why_card{
+  color: white;
+  z-index: 1;
+  @include section(30%, 80vw, 1em, $light-bg, $empty-bg-gradient);
+  @include flex(flex, column, center, center);
+}
+
+.card_group{
+  z-index: 1;
+  height: 70%;
+  width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+}
+
+.title{
+  color: $landing-text-color;
+  font-size: 40px;
+}
+
+.para{
+  color: $landing-secondary-text-color;
+  margin-top: 1em;
+  font-size: larger;  
+}
+
+.sub_title{
+  color: $landing-sub-title-color;
+}
+
+@media screen and (max-width: 786px) {
+  .card_group{
+    @include flex(flex, column, center, center)
+  }
+
+  .offers{
+    @include section(100%, 100vw, 0em, $light-bg, $section2-bg-gradient);
+    @include flex(flex, column, center, space-between);
+    padding-bottom: 3em;
+  }
+}
