@@ -1,0 +1,17 @@
+@import '../../theme/mixins.scss';
+@import '../../theme/variables.scss';
+
+.about_wrapper{
+  @include section(100vh, 100vw, 0em, $light-bg, $section3-bg-gradient);
+  @include flex(flex, column, center, center)
+}
+
+.title{
+  color: rgba(255, 255, 255, 0.759);
+  font-size: 44px;
+}
+
+.dev_grid{
+  @include flex(flex, row, center, center);
+  @include section(80vh, 80vw, 1em, $card-bg);
+}
