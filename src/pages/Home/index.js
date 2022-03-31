@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../components/Layout/Footer'
 import Navbar from '../../components/Layout/Navbar'
 import Landing from '../../containers/Landing'
 import Offers from '../../containers/Offers'
@@ -10,6 +11,7 @@ export default function Home() {
       <Navbar />
       <Landing />
       <Offers />
+      <Footer />
     </div>
   )
 }

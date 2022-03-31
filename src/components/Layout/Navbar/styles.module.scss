@@ -8,6 +8,7 @@
   z-index: 2;
   @include section(7vh, 100vw, 1em);
   @include flex(flex, row, center, space-between);
+  background-color: $light-green-bg;
 }
 
 .link_list{
@@ -27,4 +28,11 @@
 
 .title{
   color: white;
+}
+
+.logo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15vh;
 }
