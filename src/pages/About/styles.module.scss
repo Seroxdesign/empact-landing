@@ -9,9 +9,38 @@
 .title{
   color: rgba(255, 255, 255, 0.759);
   font-size: 44px;
+  text-align: center
 }
 
 .dev_grid{
   @include flex(flex, row, center, center);
   @include section(80vh, 80vw, 1em, $card-bg);
+}
+
+@media screen and (max-width: 786px) {
+  .dev_grid{
+    @include flex(flex, column, center, center);
+    @include section(100%, 100vw, 1em, $card-bg);
+  }
+
+  .about_wrapper{
+    @include section(100%, 100vw, 0em, $light-bg, $section3-bg-gradient);
+    @include flex(flex, column, center, center)
+  }
+}
+
+.background{
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('https://assets.website-files.com/61c068a59012f41188beeafb/61c32f42d6ad0f3b29d34cd2_team-bg.png');
+  background-size: cover;
+}
+
+.top{
+  position: absolute;
+  z-index: 2;
 }
