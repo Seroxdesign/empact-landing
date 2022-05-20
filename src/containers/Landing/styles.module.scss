@@ -35,6 +35,7 @@
   color: $landing-secondary-text-color;
   margin-top: 1em;
   font-size: larger;  
+  max-width: 30vw;
 }
 
 .sub_title{
@@ -61,6 +62,14 @@
   @include flex(flex, column, center, space-between);
   margin-top: 5vh;
 }
+
+.para{
+  color: $landing-secondary-text-color;
+  margin-top: 1em;
+  font-size: larger;  
+  max-width: 90vw;
+}
+
 
 
 .img{

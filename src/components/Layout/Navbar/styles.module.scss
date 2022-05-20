@@ -36,3 +36,11 @@
   left: 0;
   height: 15vh;
 }
+
+@media screen and (max-width:786px) {
+  .title{
+    color: white;
+    font-size: x-small;
+  }
+  
+}

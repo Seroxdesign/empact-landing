@@ -8,25 +8,23 @@ export default function Landing() {
       <div className={styles.landing_background}/>
       <div>
         <Logo />
-        <h3 className={styles.sub_title}>Free yourself from technical debt.</h3>
+        <h3 className={styles.sub_title}>SOLUTIONS THAT EMPOWER IMPACT</h3>
         <h2 className={styles.title}>Collaboration made simple.</h2>
         <p className={styles.para}>
-          A better way to organise your projects.
+          Understand the impact of your social investment. 
           <br></br>
-          Decentra is the future of social collaboration tools, providing users everything 
-          <br></br>
-          they need to create fully functional projects.
+          Get Empact Reports and Create dashboards that track the outcomes of your grantmaking initiatives.
         </p>
-        <a href="https://discord.gg/vP78a45DAT" rel="noreferrer" target={"_blank"}>
+        <a href="https://forms.gle/akvbTLxHaK5sb1EB7" rel="noreferrer" target={"_blank"}>
           <button className={styles.btn}>
-            Join waitlist
+            Request Demo
           </button>
         </a>
         
       </div>
 
       <div>
-        <img src={"https://i.imgur.com/OBCPjWW.jpg"} alt={"product preview"} className={styles.img}></img>
+        <img src={"https://i.imgur.com/IpTYscn.png"} alt={"product preview"} className={styles.img}></img>
       </div>
     </main>
   )

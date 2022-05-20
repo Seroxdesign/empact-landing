@@ -10,34 +10,34 @@ export default function Offers() {
   
       <div className={styles.why_card}>
         <h4 className={styles.sub_title}>Committed to improvement</h4>
-        <h2 className={styles.title}>Why Decentra</h2>
-        <p  className={styles.para}>Our goal is to save you time by providing an organisational toolkit and collaboration platform.</p>
+        <h2 className={styles.title}>Why Empact Data</h2>
+        <p  className={styles.para}>Our goal is to save you time by providing your organization with insight into your data.</p>
       </div>
 
       <div className={styles.card_group}>
         <OfferCard 
-          title={"Platform Agnostic"}
-          sub_title={"Decentralised"}
-          para={"By allowing users to log in with their wallet, and having the option to link roles and permissions in the community to (non)-transferable tokens, both the hierarchical position and identity of users can be preserved if the community decided to migrate to another platform. Furthermore, we plan to use the Arweave data storage protocol to store user content."}
-          link={"https://discord.gg/vP78a45DAT"}
+          title={"Understand Your Data"}
+          sub_title={"Transparency"}
+          para={"empact is a customizable Real-time | Open-Sourced platform where foundations and institutions can visualize, measure, and understand data and analytics with strategic insights."}
+          link={"https://zcal.co/empactdata/Foundation30"}
           img={"https://i.imgur.com/ZLHHZgN.png"}
-          cta={"Learn More"}
+          cta={"Schedule Call"}
         />
         <OfferCard 
-          title={"Social Collaboration"}
+          title={"Constantly Improving"}
           sub_title={"Connected"}
-          para={"We want to combine many features typically found in project management tools with our community tools in a more open setting - because we believe that DAOs need a tool that meets their needs for an unparalleled level of transparency with their community members."}
-          link={"https://discord.gg/vP78a45DAT"}
+          para={"Empact brings data and analytics together to provide grant makers with knowledge about their initiatives and impact not available from any other app or platform."}
+          link={"https://forms.gle/akvbTLxHaK5sb1EB7"}
           img={"https://i.imgur.com/WR7Cota.png"}
-          cta={"Join Discord"}
+          cta={"Contact Us"}
         />
         <OfferCard 
-          title={"Asynchronous"}
+          title={"Save Resources"}
           sub_title={"Focused"}
-          para={"We prioritize threaded conversations so that important topics don't get lost in the chaos of chat messages. Stay up to date and participate in conversations exactly when it fits your schedule."}
-          link={"https://forms.gle/v8Z4bVbSuweDRDcLA"}
+          para={"By gaining insight you are able to quickly adapt and improve, with our analysis you can take your impact to the next level, without any second guesses."}
+          link={"https://empact-data.vercel.app/"}
           img={"https://i.imgur.com/1sTLRFd.png"}
-          cta={"Contact Us"}
+          cta={"Demo"}
         />
       </div>
 

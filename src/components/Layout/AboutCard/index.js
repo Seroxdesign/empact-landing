@@ -23,7 +23,9 @@ export default function AboutCard(props) {
       </div>
 
       <div className={styles.bottom_card}>
-      
+        <a href={props.link} target={"_blank"}>
+          <button>Contact</button>
+        </a>
       </div>
     </div>
   )

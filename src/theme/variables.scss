@@ -5,27 +5,27 @@ $light-secondary-bg: #ECECEC;
 $light-third-bg: #91A5CC;
 $light-highlight-color: #9537B7;
 $light-btn-bg: #10BB34;
-$light-green-bg: #428e8b;
+$light-green-bg: #4c8e42;
 
 
 // Dark Theme Colors
 
-$dark-bg: #0D1117;
-$dark-secondary-bg: #161B22;
+$dark-bg: #303030;
+$dark-secondary-bg: #272a2d;
 $dark-highlight-color: #9537B7;
 $dark-btn-bg: #3D8AFD;
 
 
 // Landing Theme
 
-$section1-bg-gradient: linear-gradient(45deg, #428e8b, #3fc6bf);
+$section1-bg-gradient: linear-gradient(45deg, #428e8b, #4c8e42);
 $section3-bg-gradient: linear-gradient(45deg, #3e52cc, #0f1c52);
-$section2-bg-gradient: linear-gradient(-45deg, #ced7e6, #344972);
+$section2-bg-gradient: linear-gradient(-45deg, #4bedf2, #3e75e2);
 $landing-btn-bg: white;
 $landing-text-color: white;
 $landing-secondary-text-color: rgba(255, 255, 255, 0.6);
 $landing-sub-title-color: rgba(255, 255, 255, 0.8);
-$section2-card: #413C71;
+$section2-card: #295abc;
 $card-bg: #ced9fa;
 
 // Default Values for Mixins
